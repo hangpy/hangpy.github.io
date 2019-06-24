@@ -48,6 +48,13 @@ minima:
 # Build settings
 theme: minima
 
+
+languages: ['ko', 'en']
+default_lang: 'ko'
+exclude_from_localization: ['javascript', 'images', 'css']
+parallel_localization: false
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+ - jekyll-polyglot
